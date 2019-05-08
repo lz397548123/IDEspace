@@ -25,6 +25,8 @@ public class GuessingGameJFrame extends JFrame {
      */
     public GuessingGameJFrame() {
 
+        new StyleWindow();
+
         // 程序一运行先产生一个随机数
         gameManager.myrandom();
 
