@@ -3,7 +3,6 @@ package seven;
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Container;
-import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.Insets;
 import java.awt.event.ActionEvent;
@@ -204,7 +203,8 @@ public class Calculator implements ActionListener{
         });
 
         //Dimension 类封装单个对象中组件的宽度和高度（精确到整数）。该类与组件的某个属性关联
-        f.setSize(new Dimension(250, 220));
+        f.setSize(300, 250);
+        f.setLocation(700, 400);
         f.setResizable(false);
         f.setVisible(true);
 
