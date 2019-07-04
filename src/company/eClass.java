@@ -23,7 +23,7 @@ abstract class A {
 class B extends A {
     @Override
     int f(int x, int y) throws MyException {
-        if(x<=100&&y<=100)//判断x、y都不大于100
+        if(x>100||y>100)//判断x、y都不大于100
         {
             throw new MyException("乘数超过100");   //抛出一个MyException对象，构造方法参数为“乘数超过100”
         }
